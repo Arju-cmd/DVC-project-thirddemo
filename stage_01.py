@@ -1,3 +1,6 @@
 STAGE = "ONE"
-print(f"stage {STAGE} started successfully")
+
+with open("output.txt","w+") as f:
+    f.write(f"stage {STAGE} started successfully...")
+
 
